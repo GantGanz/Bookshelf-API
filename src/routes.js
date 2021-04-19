@@ -8,23 +8,23 @@ const {
 
 const routes = [{
     method: 'POST',
-    path: '/Books',
+    path: '/books',
     handler: addBookHandler,
 }, {
     method: 'GET',
-    path: '/Books',
+    path: '/books',
     handler: getAllBooksHandler,
 }, {
     method: 'GET',
-    path: '/Books/{id}',
+    path: '/books/{id}',
     handler: getBookByIdHandler,
 }, {
     method: 'PUT',
-    path: '/Books/{id}',
+    path: '/books/{id}',
     handler: editBookByIdHandler,
 }, {
     method: 'DELETE',
-    path: '/Books/{id}',
+    path: '/books/{id}',
     handler: deleteBookByIdHandler,
 }];
 
